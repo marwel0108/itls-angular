@@ -3,6 +3,8 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
+  SERVICES_URL: 'http://frikiwikiapis.xyz/brunoticias/public/',
+  LOGIN_URL: 'http://adoptafelicidad.us-west-2.elasticbeanstalk.com/api/',
   production: false
 };
 

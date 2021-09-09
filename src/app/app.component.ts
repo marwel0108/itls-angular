@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
+import { UserService } from './shared/services/user.service';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +8,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'cursoAngular';
+  title = 'cursoAngularS1';
+  constructor(
+    private router: Router,
+    public _api: UserService,
+  ) {}
 }
+
