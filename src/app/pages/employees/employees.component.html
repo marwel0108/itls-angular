@@ -1,0 +1,7 @@
+<div (click)="selectEmployee(employee.id)" class="card" style="width: 18rem;" *ngFor="let employee of employees">
+  <div class="card-body">
+    <p class="card-text">{{employee.name}}</p>
+  </div>
+</div>
+
+<app-gotodashboard></app-gotodashboard>

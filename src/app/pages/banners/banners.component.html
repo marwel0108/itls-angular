@@ -1,0 +1,12 @@
+<div class="card" style="width: 18rem;" *ngFor="let banner of banners">
+  <img [src]="banner.portadaUrl" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">{{ banner.titulo }}</h5>
+    <p class="card-text">Texto: {{ banner.texto }}</p>
+    <p class="card-text">Categoría: {{ banner.categoria }}</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div>
+
+
+<app-gotodashboard></app-gotodashboard>
